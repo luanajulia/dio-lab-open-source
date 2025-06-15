@@ -76,6 +76,16 @@ Atente-se para a seguir as orientações para a contribuição, principalmente:
 
 Após criar o seu Pull Request, nossa automação irá validar a sua submissão. Caso esteja tudo certo, será retornada uma mensagem indicado que seu PR foi aprovado. Do contrário, leia atentamente as orientações e verifique os arquivos modificados para saber se atende as instruções para contribuição.
     
+
+## Comandos Git 
+
+| Tipo de Commit |Descrição                                                            | Exemplo
+| ---------------|----------------------------------------------------------------------|-----------
+| `git clone`    | clonar o seu repositório localmente                                  | `git clone https://github.com/SEU_USERNAME/dio-lab-open-source.git`
+| `git checkout -b` | criar e alternar para a nova branch                              | `git checkout -b feat/community/falvojr`
+| `git add`         | adicionar sua alteração| `git add community/SEU_USERNAME.md`
+| `git commit -m`        | Crie um commit e adicione a mensagem         | `git commit -m"feat: add SEU_USERNAME profile"`
+| `git push origin`     | Envie as alterações realizadas no seu repositório local         | `git push origin feat/community/SEU_USERNAME`
     
 ## Convenção de Commits 
 
